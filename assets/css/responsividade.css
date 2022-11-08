@@ -1,0 +1,60 @@
+@media(max-width: 1134px){
+    .container-header{
+        height: 77px;
+    }
+    .container-header .conjunto01 .noar img{
+        width: 60px;
+        margin-right: 10px;
+    }
+    .container-header .conjunto01 .dj img{
+        width: 60px;
+        margin-right: 10px;
+    }
+    .container-header .conjunto01 h3{
+        font-size: 0.8rem;
+    }
+    .container-header .conjunto01 p, label{
+        font-size: 0.8rem;
+    }
+    .container-header .conjunto02 .player{
+        margin-right: none;
+    }
+    .container-header .conjunto02 .logo{
+        margin-right: none;
+    }
+    .container-header .conjunto02 .logo img{
+        width: 130px;
+    }
+    .container-header .conjunto03 p{
+        font-size: 0.8rem;
+    }
+}
+@media(max-width: 885px){
+    .container-header .conjunto03{
+        display: none;
+    }
+    .container-header .conjunto04{
+        display: block;
+    }
+    .container-header .conjunto04 figure img{
+        width: 150px;
+    }
+}
+@media(max-width: 711px){
+    .container-header .conjunto02 .logo{
+        display: none;
+    }
+}
+@media(max-width: 561px){
+    .container-header .conjunto04{
+        display: none;
+    }
+}
+@media(max-width: 411px){
+    .container-header .conjunto01 .dj, article{
+        display: none;
+    }
+    .container-header .conjunto04{
+        display: block;
+    }
+}

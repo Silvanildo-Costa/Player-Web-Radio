@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100;300;500;900 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif ;
+}
+
+.container-header{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+}
+/* Início do conjunto01 */
+.container-header .conjunto01{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.container-header .conjunto01 .noar img{
+    width: 100px;
+    margin-right: 20px;
+}
+.container-header .conjunto01 .dj img{
+    width: 100px;
+    margin-right: 20px;
+}
+.container-header .conjunto01 article, h3, p, label{
+   color: #fff;
+}
+/* Fim do Conjunto01 */
+
+/* Início do Conjunto02 */
+.container-header .conjunto02{
+    display: flex;
+    align-items: center;
+}
+.container-header .conjunto02 .player{
+    margin-right: 20px;
+}
+.container-header .conjunto02 .player #playButton{
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/player.gif);
+
+}
+.container-header .conjunto02 .logo{
+    margin-right: 20px;
+}
+.container-header .conjunto02 .logo img{
+    width: 200px;
+}
+/* Fim do Conjunto02 */
+
+/* Início do Conjunto03 */
+.container-header .conjunto03{
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+}
+.container-header .conjunto03 p{
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+.container-header .conjunto03 .redes-sociais a{
+    color: #80C149;
+    font-size: 40px;
+    text-decoration: none;
+}
+.container-header .conjunto03 .redes-sociais a:hover{
+    color: #fff;
+}
+/* Fim do Conjunto03 */
+
+/* Início do Conjunto04 */
+.container-header .conjunto04{
+    display: none;
+}
+/* Fim do Conjunto04 */
